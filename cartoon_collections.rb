@@ -14,6 +14,5 @@ end
 
 def find_the_cheese (snacks_list)
   cheese = snacks_list.index {|item| item == "cheddar" || "gouda" || "camembert"}
+  snacks_list[cheese]
 end
-
-a.index {|x| x == "b"} 
