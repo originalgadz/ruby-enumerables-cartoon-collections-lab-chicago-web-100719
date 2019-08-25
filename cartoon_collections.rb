@@ -16,7 +16,7 @@ def find_the_cheese (snacks_list)
   cheese = ["cheddar","gouda","camembert"]
   index = snacks_list.index {|item| cheese.include?(item)}
   if index = nil
-    index
+    return nil
   else
       snacks_list[index]
   end
