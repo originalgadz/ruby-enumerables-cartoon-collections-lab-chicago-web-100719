@@ -8,6 +8,6 @@ def summon_captain_planet (planeteer_calls)
 end
 
 def long_planeteer_calls (planeteer_calls)
-  planeteer_calls.each do {|call| 
+  planeteer_calls.each {|call| call
 end
 
