@@ -13,6 +13,6 @@ def long_planeteer_calls (planeteer_calls)
 end
 
 def find_the_cheese (snacks_list)
-  if snacks_list.include {|item| item == "cheddar"}
+  cheddar = snacks_list.index {|item| item == "cheddar"}
   
 end
