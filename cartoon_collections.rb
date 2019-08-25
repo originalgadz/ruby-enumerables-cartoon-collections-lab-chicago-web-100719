@@ -12,3 +12,6 @@ def long_planeteer_calls (planeteer_calls)
   test
 end
 
+def find_the_cheese (snacks)
+  
+end
