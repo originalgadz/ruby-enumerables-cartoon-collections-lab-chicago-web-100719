@@ -12,6 +12,8 @@ def long_planeteer_calls (planeteer_calls)
   test
 end
 
-def find_the_cheese (snacks)
-  
+def find_the_cheese (snacks_list)
+  cheese = snacks_list.include? {
 end
+
+a.include?("b")
