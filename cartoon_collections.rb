@@ -13,6 +13,6 @@ def long_planeteer_calls (planeteer_calls)
 end
 
 def find_the_cheese (snacks_list)
-  cheese = snacks_list.index {|item| item === "cheddar" || "gouda" || "camembert"}
+  cheese = snacks_list.index {|item| item == "cheddar"}
   snacks_list[cheese]
 end
