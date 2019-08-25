@@ -14,5 +14,8 @@ end
 
 def find_the_cheese (snacks_list)
   cheese = snacks_list.index {|item| item == "cheddar" || "gouda" || "camembert"}
+  if cheese = nil
+    return cheese
+  end
   snacks_list[cheese]
 end
