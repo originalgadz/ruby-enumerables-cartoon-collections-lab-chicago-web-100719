@@ -8,6 +8,7 @@ def summon_captain_planet (planeteer_calls)
 end
 
 def long_planeteer_calls (planeteer_calls)
-  planeteer_calls.each {|call| call.size
+  test = planeteer_calls.all? {|call| call.size > 4}
+  test
 end
 
